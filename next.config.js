@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
+module.exports = {
+  images: {
+    domains: ['pbs.twimg.com'], // 画像のホストを追加
+  },
+};
